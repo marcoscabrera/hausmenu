@@ -1,0 +1,388 @@
+
+
+.fondoBlanco{
+
+
+    background-color: white;
+
+
+
+}
+
+.fondoGris{
+    background-color: #cde0ef;;
+}
+
+.fondoAzul{
+
+    background-color: #4054B2;
+}
+.colorLetraBlanco{
+
+    color: white;
+}
+
+.ptop_20{
+padding-top: 20px;
+}
+
+.pleft_20{
+    padding-left: -20px;
+    }
+    
+.alturaMinima_imagen{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.padding25top{
+
+    padding-top: 25px;
+}
+
+.paddingBottom_50{
+
+    padding-bottom: 50px;
+}
+
+
+.ajustarDivAlContenido{
+
+    display:block;
+
+}
+.cuadroInformativo_imagen{
+ 
+    margin-top: 25px;
+    margin-bottom: -25px;
+    min-height: 100%;
+   /* background-color: red;*/
+    position:relative;
+ /*   margin-left:50px;*/
+
+}
+
+.margenIzquierdo{
+
+    margin-left : 50px;
+}
+
+.margenDerecho {
+
+    margin-right : 50px;
+}
+/*
+ 
+<img src=""
+                    class="  alturaMinima_imagen">
+
+*/
+
+.imagenMovil{
+    position: relative;
+    background-position : center;
+    padding-left: 10px;
+    padding-right : 10px;
+    padding-top:10px;
+
+}
+.imagenBG{
+
+    background-image: url("https://grupoihoe.com/wp-content/uploads/2022/03/5-2.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+   
+}
+
+.imagenBG_dos{
+   
+
+    
+    background-image: url(" https://grupoihoe.com/wp-content/uploads/2022/03/VILLAS-COSTERA.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.imagenBG_contacto{
+       
+    background-image: 
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs7NsyS_sxIzqZ-97tZZO4GRjv8lTIfC3Yfg&usqp=CAU");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white; 
+}
+.cuadroInformativo{
+
+ margin-top: 25px;
+ margin-bottom: -25px;
+ min-height: 90%;
+/* margin-right: 50px;*/
+
+}
+
+
+.titulo_CuadroInformativo_movil{
+
+    color: #11354C;
+    font-family: "Quincy", Sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 0.9em;
+    letter-spacing: 0.9px;
+    
+}
+.titulo_CuadroInformativo_sub_movil{
+    color: #11354C;
+    font-family: "Quincy", Sans-serif;
+    font-size: 1.4rem;
+    font-weight: 480;
+    line-height: 0.7em;
+    letter-spacing: 0.9px;
+}
+
+.parrafo_CuadroInformtivo_movil{
+
+    font-family: "Verdana", Sans-serif;
+    font-size: 0.9rem;
+    font-weight: 130160;
+    line-height: 1.25em;
+    letter-spacing: 0px;
+}
+
+.titulo_CuadroInformativo{
+    
+
+        color: #11354C;
+        font-family: "Quincy", Sans-serif;
+        font-size: 2.1rem;
+        font-weight: 600;
+        line-height: 1.3em;
+        letter-spacing: 0.9px;
+   
+
+
+}
+
+
+.titulo_CuadroInformativo_sub{
+    color: #11354C;
+    font-family: "Quincy", Sans-serif;
+    font-size: 1.6rem;
+    font-weight: 580;
+    line-height: 1.3em;
+    letter-spacing: 0.9px;
+}
+
+.parrafo_CuadroInformtivo{
+      
+    font-family: "Verdana", Sans-serif;
+font-size: 1.23rem;
+font-weight: 160;
+line-height: 1.5em;
+letter-spacing: 0px;
+
+
+}
+
+/*-----------*/
+
+.fuenteColorBlanco{
+    color: white;
+}
+
+
+/**************************************/
+/* modificacion de componeneste      */
+/*************************************/
+
+/* altura de la barra de navegacion */
+.navbar {
+    
+    --bs-navbar-padding-y: 1.1rem;
+}
+
+
+.margenEntreMenus {
+
+    margin-left:22px;
+    margin-right:22px;
+}
+
+.fuenteGoogle{
+
+    font-family: 'Pacifico', cursive; 
+    font-size:115%
+}
+.fuenteGoogle_225{
+
+    font-family: 'Pacifico', cursive; 
+    font-size:225%
+}
+
+
+
+/********************/
+/* comillas grandes */
+/********************/
+
+
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote h3 {
+font-size:16px;
+}
+
+blockquote h3:before { 
+content: open-quote;
+font-weight: bold;
+font-size:50px;
+color:#404181;
+} 
+blockquote h3:after { 
+content: close-quote;
+font-weight: bold;
+font-size:50px;
+color:#404181;
+  
+}
+
+
+
+.listaSinBullets{
+
+    list-style: none;
+
+    
+}
+
+/* css border */
+
+.cardBorder_0 {
+
+   /* border:1px 1px 1px 1px;
+    padding : 0px 0px 0px 0px;
+   */ 
+}
+
+.btn-promo {
+background-color: #fff;
+width: 100%;
+white-space: initial;
+transform: scale(1);
+transition: .2s 0s ease-in;
+border: 1px solid #ccc;
+padding: 0;
+border-radius: 0, 0, 10px, 10px;
+border-radius: 10px;
+}
+
+.btn-promo h6 {
+
+        /*padding: 0px 10px;
+        font-size: 14px;
+        line-height: 1em;
+        height: 2em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;*/
+
+        color: #A2CC39;
+text-transform: uppercase;
+   
+}
+
+
+.btn-promo p {
+
+    padding: 0px 20px;
+    font-size: 10px;
+    color: #777;
+
+}
+
+.sectionTop {
+    margin-top: 87px;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #000313;
+  }
+
+  .headxMarca {
+    margin: 0px 0px 20px 0px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+  }
+  .headxMarca span.theme_italiannis {
+    background-color: #00463e;
+  }
+
+  .headxMarca span {
+  width: 100%;
+  height: 10px !important;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  z-index: -1;
+  top: 40px;
+}
+
+.headxMarca img {
+    width: 68px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
+
+
+  .containCoupon {
+    background-color: #fff;
+    padding: 0px;
+    margin-bottom: 20px;
+   /* width: 95%;
+    display: block;*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+  }
+
+  .sectionCupon {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+
+  .infoCupon {
+    padding: 0px 30px;
+      padding-top: 0px;
+    height: 450px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+  }
+
+
+  footer img {
+    padding: 20px;
+    max-width: 130px;
+  }
